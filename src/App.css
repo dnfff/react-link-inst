@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Kanit:wght@600&family=Lato&family=Montserrat:wght@100;300;500;900&family=Open+Sans:wght@300;800&display=swap');
+
+.app {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Kanit', sans-serif;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.app p span {
+  color: #00b2b8;
+}
+
+.app p {
+  margin-top: 35px;
+  text-align: center;
+}
+
+.images {
+  height: 25px;
+}
+
+.name {
+  justify-content: center;
+  margin: 0;
+}
+
+.bg {
+  /* height: 250px; */
+  width: 200px;
+  /* position:absolute;  */
+  bottom:0;
+  filter: drop-shadow(3px 3px 10px #00b2b8);
+}
+
+.photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 5000px;
+  margin-top: 40px;
+  border-color: #00b2b8;
+            box-shadow: 0 0 100px #00b2b8;
+            outline: none;
+            border: 1px solid #00b2b84b;
+            
+}
+
+.card {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.btn {
+  height: 60px;
+  width: 70%;
+  /* background-color: #a6b800; */
+  border-radius: 4px;
+  box-shadow: 0 0 50px #00b2b85e;
+  border: 1px solid #00b2b84b;
+  outline: none;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+  /* background-color: #ffffff;
+  color: #333333; */
+}
+
+.btn svg {
+  transform: scale(0.9);
+  fill: #333333;
+}
+
